@@ -30,6 +30,7 @@ This project uses the following technologies
 - [phpMyAdmin]
 - [MySQL]
 - [PHP7]
+
 ## Author
 
 **Micah Andres** - [mandres2](https://github.com/mandres2)

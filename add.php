@@ -30,7 +30,6 @@
                 $errors['ingredients'] = 'Ingredients must be a comma separated list';
             }
         }
-
         if(array_filter($errors)){
             //echo 'errors in the form';
         } else {
@@ -38,7 +37,6 @@
             // Redirect to index.php upon user authentication
             header('Location: index.php');
         }
-
 
     } // end of POST check
 

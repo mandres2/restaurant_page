@@ -1,8 +1,8 @@
 # restaurant_page
-Minimal dynamic page utilizing foundations of PHP7.
+Minimal dynamic page with user authentication and customization of an object utilizing PHP7.
 
 ## Motive
-As a Full Stack Developer, the primary motive was to utilize my knowledge of programming and apply the foundational concepts into utilizing another programming language such as PHP7. PHP is still heavily utilized today in many websites, such as Facebook and ecommerce websites (Prestashop, Shopify, etc). Understanding the mechanisms and how it exhibits a symbiotic relationship with a database (In this case phpMyAdmin), is essential for a developer when learning a new programming language.
+As a Full Stack Developer, the primary motive was to utilize my knowledge of programming and apply the foundational concepts into utilizing another programming language such as PHP7. PHP is still heavily utilized today in many websites, such as Facebook and ecommerce websites (Prestashop, Shopify, etc). Understanding the mechanisms and how it exhibits a symbiotic relationship with a database (In this case, phpMyAdmin), is essential for a developer when learning a new programming language.
 
 ### Prerequisites
 
@@ -28,7 +28,8 @@ This project uses the following technologies
 
 - [XAMPP]
 - [phpMyAdmin]
-
+- [MySQL]
+- [PHP7]
 ## Author
 
 **Micah Andres** - [mandres2](https://github.com/mandres2)

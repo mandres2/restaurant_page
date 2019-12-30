@@ -1,5 +1,5 @@
 <?php
-
+    $title = $email = $ingredients= '';
     $errors = array('email' => '', 'title'=>'', 'ingredients'=>'');
 
     if(isset($_POST['submit'])){
@@ -44,13 +44,13 @@
         <h4 class = "center">Add a Pizza</h4>
         <form class="white" action="add.php" method="POST">
             <label>Your E-mail:</label>
-            <input type="text" name="email">
+            <input type="text" name="email" value="<?php echo $email ?>">
             <div class="red-text"><?php echo $errors['email']; ?></div>
             <label>Pizza Title:</label>
-            <input type="text" name="title">
+            <input type="text" name="title" value="<?php echo $title ?>">
             <div class="red-text"><?php echo $errors['title']; ?></div>
             <label>Ingredients (comma separated):</label>
-            <input type="text" name="ingredients">
+            <input type="text" name="ingredients"  value="<?php echo $ingredients ?>">
             <div class="red-text"><?php echo $errors['ingredients']; ?></div>
                 <div class="center">
                     <input type="submit" name="submit" value="submit" class="btn brand z-depth-0">

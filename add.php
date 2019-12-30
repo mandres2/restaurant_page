@@ -1,26 +1,34 @@
 <?php
 
+    $errors = array('email' => '', 'title'=>'', 'ingredients'=>'');
+
     if(isset($_POST['submit'])){
         // check mail
         if(empty($_POST['email'])) {
-            echo 'An email is required <br />';
+            $errors['email'] = 'An email is required <br />';
         } else {
             $email = $_POST['email'];
             if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-                echo 'email must be a valid e-mail address';
+                $errors['email'] = 'email must be a valid e-mail address';
             }
         }
         // check title
         if(empty($_POST['title'])) {
-            echo 'A title is required <br />';
+            $errors['title'] = 'A title is required <br />';
         } else {
-            echo htmlspecialchars($_POST['title']);
+            $title = $_POST['title'];
+            if(!preg_match('/^[a-zA-Z\s]+$/', $title)) {
+                $errors['title'] ='Title must be letters and spaces only.';
+            }
         }
         // check ingredients
         if(empty($_POST['ingredients'])) {
-            echo 'At least one ingredient is required <br />';
+            $errors['ingredients'] = 'At least one ingredient is required <br />';
         } else {
-            echo htmlspecialchars($_POST['ingredients']);
+            $ingredients = $_POST['ingredients'];
+            if(!preg_match('/^([a-zA-Z\s]+)(,\s*[a-zA-Z\s]*)*$/', $ingredients)) {
+                $errors['ingredients'] = 'Ingredients must be a comma separated list';
+            }
         }
     } // end of POST check
 
@@ -37,10 +45,13 @@
         <form class="white" action="add.php" method="POST">
             <label>Your E-mail:</label>
             <input type="text" name="email">
+            <div class="red-text"><?php echo $errors['email']; ?></div>
             <label>Pizza Title:</label>
             <input type="text" name="title">
+            <div class="red-text"><?php echo $errors['title']; ?></div>
             <label>Ingredients (comma separated):</label>
             <input type="text" name="ingredients">
+            <div class="red-text"><?php echo $errors['ingredients']; ?></div>
                 <div class="center">
                     <input type="submit" name="submit" value="submit" class="btn brand z-depth-0">
                 </div>
@@ -49,6 +60,5 @@
 
 	<!-- Injection of footer content -->
 	<?php include('templates/footer.php'); ?>
-
 
 </html>

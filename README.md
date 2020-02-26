@@ -38,7 +38,3 @@ This project uses the following technologies
 ## License
 
 <b>This project is licensed under the MIT License</b>
-
-## Acknowledgments & Support
-
-* <b> The Net Ninja </b>

@@ -1,7 +1,7 @@
 <?php
 
 	// Connect to database
-	$conn = mysqli_connect('localhost', 'micah', 'Ma_access1', 'restaurant_page');
+	$conn = mysqli_connect('localhost', 'root', 'Ma_access1', 'restaurant_page');
 
 	// check connection
 	if(!$conn) {

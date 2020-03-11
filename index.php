@@ -25,6 +25,8 @@
 
 	// explode(',', $pizzas[0]['ingredients']);
 
+	print_r($pizzas);
+
 ?>
 
 <!DOCTYPE html>

@@ -23,9 +23,10 @@
 	// Close connection
 	mysqli_close($conn);
 
-	// explode(',', $pizzas[0]['ingredients']);
+	// This line of code will print on the front-end an array [that is connected to our current phpMyAdmin DB], that will allow us to cycle through
+	// print_r(explode(',', $pizzas[0]['ingredients']));
 
-	print_r($pizzas);
+	// print_r($pizzas);
 
 ?>
 
@@ -35,7 +36,7 @@
 	<!-- Injection of header content -->
 	<?php include('templates/header.php'); ?>
 
-	<h4 class="center grey-text">Pizza</h4>
+	<h4 class="center grey-text">Pizzas</h4>
 
 	<div class="container">
 		<div class="row">

@@ -34,7 +34,12 @@ This project uses the following technologies:
 
 ### For Testing Purposes:
 
-
+1. Have XAMPP FTP turned on for both Apache and MySQL
+2. Click Admin on Apache to be taken to localhost
+3. Enter your targeted data file location in the address bar to test remotely on local server.
+```
+http://localhost/php_tutorial/restaurant_page/index.php
+```
 
 ## Author
 

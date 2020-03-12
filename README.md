@@ -24,12 +24,17 @@ As a Full Stack Developer, the primary motive was to utilize my knowledge of pro
 
 ## Technologies Used
 
-This project uses the following technologies
+This project uses the following technologies:
 
 - [XAMPP]
 - [phpMyAdmin]
-- [MySQL]
+- [MySQL] -- Ver 15.1 (or higher) Distrib 10.4.10-MariaDB, for Win64
 - [PHP7]
+
+
+### For Testing Purposes:
+
+
 
 ## Author
 

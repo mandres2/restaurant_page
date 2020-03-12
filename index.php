@@ -55,7 +55,7 @@
 							</ul>
 						</div>
 						<div class="card-action right-align">
-							<a href="#" class="brand-text">More Information</a>
+							<a href="details.php?id=<?php echo $pizza['id']?>" class="brand-text">More Information</a>
 						</div>
 					</div>
 				</div>
@@ -73,6 +73,5 @@
 
 	<!-- Injection of footer content -->
 	<?php include('templates/footer.php'); ?>
-
 
 </html>

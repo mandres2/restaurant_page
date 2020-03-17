@@ -2,6 +2,23 @@
 
 include('config/db_connect.php');
 
+//POST Method:
+if(isset($_POST['delete'])){
+
+    $id_to_delete = mysqli_real_escape_string($conn, $_POST['id_to_delete']);
+
+    $sql = "DELETE FROM pizzas WHERE id = $id_to_delete";
+
+    if(mysqli_query($conn, $sql)){
+        // If the connection is a success: redirect the user.
+        header('Location: index.php');
+    } {
+        // If this is a failure:
+        echo 'query error: ' . mysqli_error($conn);
+    }
+
+}
+
 // Check GET Requests id Parameter
     if(isset($_GET['id'])){
 
@@ -39,7 +56,6 @@ include('config/db_connect.php');
             [created_at] => 2020-03-10 20:53:47
         )
         */
-
     }
 
 ?>
@@ -58,8 +74,16 @@ include('config/db_connect.php');
         <h5>Ingredients:</h5>
         <p><?php echo htmlspecialchars($pizza['ingredients']); ?></p>
 
+        <!--DELETE FORM-->
+        <form action="details.php" method="POST">
+            <input type="hidden" name="id_to_delete" value="<?php echo $pizza['id'] ?>">
+            <input type="submit" name="delete" value="Delete" class="btn brand z-depth-0">
+        </form>
+
     <?php else: ?>
+
         <h5>Error. No such pizza exists.</h5>
+
     <?php endif; ?>
 </div>
 

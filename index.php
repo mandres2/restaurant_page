@@ -63,9 +63,9 @@
 			<?php endforeach; ?>
 
 			<?php if(count($pizzas) >= 3):  ?>
-				<p>	There are two or more pizzas </p>
+				<!-- Test configuration: <p>	There are two or more pizzas </p> -->
 			<?php  else:  ?>
-				<p> There are less than 3 pizzas </p>
+				<!-- Test configuration: <p> There are less than 3 pizzas </p> -->
 			<?php endif; ?>
 
 		</div>

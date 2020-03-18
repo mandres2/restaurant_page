@@ -1,10 +1,15 @@
-# restaurant_page
-Minimal dynamic page with user authentication and customization of an object utilizing PHP7.
+# Pizza Restaurant Page
+![alt text](https://66.media.tumblr.com/2ca0778b8d160a8ba54986fd3e877bf6/tumblr_mopmca2a6C1r4mh0bo1_500.gifv)
+<br>
+Minimal dynamic page with user authentication and customization of an object built from PHP.
 
 ## Motive
-As a Full Stack Developer, the primary motive was to utilize my knowledge of programming and apply the foundational concepts into utilizing another programming language such as PHP7. PHP is still heavily utilized today in many websites, such as Facebook and ecommerce websites (Prestashop, Shopify, etc). Understanding the mechanisms and how it exhibits a symbiotic relationship with a database (In this case, phpMyAdmin), is essential for a developer when learning a new programming language.
+The primary motive was to utilize my knowledge of programming and apply the foundational concepts and syntax into utilizing another programming language such as PHP7. PHP is still heavily utilized today in many websites, such as Facebook and e-commerce websites (Prestashop, Shopify, etc.). Understanding the mechanisms and how it exhibits a symbiotic relationship with a database (In this case, phpMyAdmin), is essential for a developer when learning a new programming language.
 
-### Prerequisites
+![alt text]()
+
+
+### Pre-Requisites
 
 :black_small_square: IDE: Microsoft Visual Studios 1.41.1 (or higher).
 <br>
@@ -18,9 +23,14 @@ As a Full Stack Developer, the primary motive was to utilize my knowledge of pro
 <br>
 :black_small_square: phpMyAdmin - OS Administration tool for MySQL and MariaDB
 
+## Program Anatomy
+* Minimalistic MVC. <config> contains the MYSQL/phpMyAdmin connection
+* img - contains front-end UI/assets
+* templates - contains the footer and header
+
 ## Deployment
 
-* <b> 'git push origin master' & 'git push heroku master' the files into GitHub Profile and Heroku respectively.</b>
+* <b> 'git push origin master' to targeted repository. </b>
 
 ## Technologies Used
 
@@ -29,16 +39,19 @@ This project uses the following technologies:
 - [XAMPP]
 - [phpMyAdmin]
 - [MySQL] -- Ver 15.1 (or higher) Distrib 10.4.10-MariaDB, for Win64
-- [PHP7]
+- [PHP7] -- Ver 7.4.3+
 
 
-### For Testing Purposes:
+### For Testing Purposes
 
 1. Have XAMPP FTP turned on for both Apache and MySQL
 2. Click Admin on Apache to be taken to localhost
 3. Enter your targeted data file location in the address bar to test remotely on local server.
+<br>
+<h4>Example</h4>
+
 ```
-http://localhost/php_tutorial/restaurant_page/index.php
+http://localhost/restaurant_page/index.php
 ```
 
 ## Author

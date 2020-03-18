@@ -6,8 +6,20 @@ Minimal dynamic page with user authentication and customization of an object bui
 ## Motive
 The primary motive was to utilize my knowledge of programming and apply the foundational concepts and syntax into utilizing another programming language such as PHP7. PHP is still heavily utilized today in many websites, such as Facebook and e-commerce websites (Prestashop, Shopify, etc.). Understanding the mechanisms and how it exhibits a symbiotic relationship with a database (In this case, phpMyAdmin), is essential for a developer when learning a new programming language.
 
-![alt text]()
+#### Front-End of Main Page
 
+![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/pizza_restaurant1.png?raw=true)
+
+<br>
+
+#### Add a Pizza to Main Page
+![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/add_pizza.png?raw=true)
+
+#### Info of Created User-Created Object
+![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/info_created.png)
+
+#### phpMyAdmin / MySQL_DB
+![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/phpMyAdmin.png?raw=true)
 
 ### Pre-Requisites
 
@@ -24,9 +36,10 @@ The primary motive was to utilize my knowledge of programming and apply the foun
 :black_small_square: phpMyAdmin - OS Administration tool for MySQL and MariaDB
 
 ## Program Anatomy
-* Minimalistic MVC. <config> contains the MYSQL/phpMyAdmin connection
-* img - contains front-end UI/assets
-* templates - contains the footer and header
+* Minimalistic MVC
+* ```config``` contains the MYSQL/phpMyAdmin back-end connection
+* ```img``` - contains front-end UI/assets
+* ```templates``` - contains the ```footer``` and ```header```
 
 ## Deployment
 

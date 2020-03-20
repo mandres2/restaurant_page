@@ -15,7 +15,7 @@ The primary motive was to utilize my knowledge of programming and apply the foun
 
 #### Demo
 
-1[alt text]()
+![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/demo.gif?raw=true)
 
 
 #### Add a Pizza to Main Page

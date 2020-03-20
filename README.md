@@ -21,7 +21,7 @@ The primary motive was to utilize my knowledge of programming and apply the foun
 #### Add a Pizza to Main Page
 ![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/add_pizza.png?raw=true)
 
-#### Info of Created User-Created Object
+#### Info of User-Created Object
 ![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/info_created.png)
 
 #### phpMyAdmin / MySQL_DB

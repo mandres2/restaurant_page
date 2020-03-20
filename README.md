@@ -12,6 +12,12 @@ The primary motive was to utilize my knowledge of programming and apply the foun
 
 <br>
 
+
+#### Demo
+
+1[alt text]()
+
+
 #### Add a Pizza to Main Page
 ![alt text](https://github.com/mandres2/restaurant_page/blob/master/img/add_pizza.png?raw=true)
 

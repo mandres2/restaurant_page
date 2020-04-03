@@ -1,4 +1,4 @@
-# Pizza Restaurant Page
+# Restaurant Page
 ![alt text](https://66.media.tumblr.com/2ca0778b8d160a8ba54986fd3e877bf6/tumblr_mopmca2a6C1r4mh0bo1_500.gifv)
 <br>
 Minimal dynamic page with user authentication and customization of an object built from PHP.
